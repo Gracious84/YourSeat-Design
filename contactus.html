@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript" language="javascript">
+        $(function() {
+            $(this).bind("contextmenu", function(e) {
+                e.preventDefault();
+            });
+        }); 
+        document.onkeydown = function (e) {
+        return false;
+}
+</script>
+</head>
+<body>  
+    <!-- 
+Custom nvbar color 
+-->
+<nav class="navbar navbar-expand-sm sticky-top navbar-custom py-0">
+    <div class="container">
+    <a href="index.html" class="navbar-brand d-logo "><img src="images/logo.svg"/></a>
+    <a href="index.html" class="navbar-brand  m-logo  "><img src="images/from-the-team-icon.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
+        <i class="fas fa-bars fa-lg py-1 text-white"></i>
+       
+    </button>
+    <div class="navbar-collapse collapse" id="navbarCustom">  
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="project.html">Project</a>
+            </li>      
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Learn
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Basic</a>
+                    <a class="dropdown-item" href="#">What is evidance-based measurement?</a>
+                    <a class="dropdown-item" href="#">Surveys</a>
+                
+                    <a class="dropdown-item" href="#">Program Manuals</a>
+                    <a class="dropdown-item" href="#">Reports</a>
+                    <a class="dropdown-item" href="#">Plan</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact us</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+            </li>
+        </ul>
+        
+       
+    </div>
+        </div>
+</nav>
+  
+    <section class="page-title">
+        <div class="container">
+        <h4> Contact us</h4>
+        </div>    
+    </section>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+        <div class="card  custom-card">        
+                
+            <div class="card-body custom-card-body">
+                <div class="row">
+                
+             <div class="col-sm-7">
+                <p class="mb-4 pb-3">Questions? Comments? Please feel free to contact us at any time</p>
+               <form action="/action_page.php">
+  <div class="form-group">
+    <label for="fname">First Name</label>
+    <input type="text" class="form-control" id="fname">
+  </div>
+                   <div class="form-group">
+    <label for="lname">Last name</label>
+    <input type="text" class="form-control" id="lname">
+  </div>
+                   <div class="form-group">
+    <label for="pnumber">Phone number</label>
+    <input type="text" class="form-control" id="pnumber">
+  </div>
+                   <div class="form-group">
+    <label for="organization">Organization</label>
+    <input type="text" class="form-control" id="organization">
+  </div>
+                   <div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" class="form-control" id="subject">
+  </div>
+     <div class="form-group">
+    <label for="fname">Subject</label>
+    <textarea  class="form-control" rows="5"> </textarea>
+  </div>
+                  
+  
+  <button type="submit" class="btn btn-lg mt-4 btn-submit">Submit</button>
+                      
+</form>
+            </div>
+                </div>
+            
+            </div> 
+        </div>
+      
+    </div>
+  
+  </div>
+</div>
+<br><br><br><br><br><br>
+   <footer class="footer">
+    <div class="container">   
+    <div class="row">
+    <div class="col-sm-6 col-6">
+        <ul class="footer-moblie-menu">        
+        <li>Project</li>
+        <li>Learn</li>
+        <li>FAQ</li>
+        <li>Contact Us</li>  
+            <li>Login</li> 
+        </ul>
+    <ul class="footer-menu">        
+        <li>Project</li>
+        <li>Learn</li>
+        <li>FAQ</li>
+        <li>Contact Us</li>        
+        </ul>       
+        <p class="footer-login">Already have a YourSeat Account? <a href="#">Log in here</a></p>
+        </div>    
+        <div class="col-sm-6 col-6">
+    <img src="images/footerlogo.svg" class=" moblie-footer float-right" />
+        </div> 
+        <div class="col-sm-12">
+            <div class="copyright-informatio">
+        <p class="mb-0" >COPYRIGHT INFORMATION HERE </p></div>
+        </div>
+    </div> </div>
+    </footer>
+</body>
+</html>
