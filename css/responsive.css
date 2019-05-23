@@ -1,49 +1,343 @@
-@media (max-width: 1600px){      
-    ul.footer-moblie-menu{
+@media (max-width: 1600px) {
+    ul.footer-moblie-menu {
         display: none;
     }
-   .m-logo{
-         display: none !important;
-    }
-}
 
-@media (max-width: 768px){
-  
-ul.footer-moblie-menu{
-    display: block !important;
-    list-style-type: none;
-    color: white;
-    padding: 0px;
-}
-   
-ul.footer-moblie-menu li{
-    padding: 9px 6px;
-    color: white;
-}   
-    .moblie-footer{
-            margin-top: 5rem;
-    }
-    
-     ul.footer-menu{
-    display: none !important;
-}
-.footer-login{
-    display: none;
-}  
-    .m-logo{
-         display: none !important;
-    }
-}
-
-
-@media (max-width: 640px){
-    
-    .d-logo{
+    .m-logo {
         display: none !important;
     }
-    .m-logo{
-         display: block  !important;
-    }  
+
+    .img-lft {
+        position: relative;
+        left: -174px;
+    }
+
+    .m-title {
+        display: none
+    }
+}
+
+@media (max-width: 768px) {
+    .img-lft {
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+
+    ul.footer-moblie-menu {
+        display: block !important;
+        list-style-type: none;
+        color: white;
+        padding: 0px;
+    }
+
+    ul.footer-moblie-menu li {
+        padding: 9px 6px;
+        color: white;
+    }
+
+    .moblie-footer {
+        margin-top: 5rem;
+    }
+
+    ul.footer-menu {
+        display: none !important;
+    }
+
+    .footer-login {
+        display: none;
+    }
+
+    .m-logo {
+        display: none !important;
+    }
+
+    .navbar-custom .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, .5);
+        padding: 10px;
+    }
+
+    .page-title {
+        background: #0C60AB;
+        padding: 30px 0px;
+        height: 130px;
+    }
+
+    .slider-section {
+        padding: 60px 0px;
+        text-align: center;
+    }
+
+    .hero-left p {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bar {
+        background-size: 100% 122%;
+        height: 39px;
+    }
+
+    .report-issue {
+        padding: 60px 0px;
+    }
+
+    .report-issue p {
+        margin-bottom: 25px;
+    }
+
+    .report-issue h3 {
+
+        text-align: center;
+    }
+
+    .learn-info .info-bx h6 {
+
+        font-size: 16px;
+        margin: 0px 0px;
+    }
+
+    .learn-info .info-bx {
+
+        margin: 20px 0px;
+
+    }
+
+
+    .solution {
+        padding: 65px 0px;
+    }
+
+    .inner-solution-bx {
+
+        padding: 45px;
+
+    }
+
+    .team {
+        padding: 75px 0px;
+
+    }
+
+    .inner-team-bx h3 {
+        margin: 30px;
+    }
+
+    .inner-team-bx {
+        padding: 40px 20px;
+    }
+
+    .problog-img img {
+        width: 100% !important;
+
+    }
+
+.sticky-menu {
+   
+    top: 52px;
+    
+}
+    
+
 }
 
 
+@media (max-width: 640px) {
+    .card-body {
+        padding: 20px;
+    }
+
+    .d-title {
+        display: none;
+    }
+
+    .m-title {
+        display: block;
+    }
+
+    .page-title {
+        background: #0C60AB;
+        padding: 12px 0px;
+        height: 100px;
+    }
+
+    .img-lft {
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+
+    .d-logo {
+        display: none !important;
+    }
+
+    .m-logo {
+        display: block !important;
+    }
+
+    .slider-section {
+        padding: 55px 0px;
+    }
+
+    .hero-left h6 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        margin: 15px 0px 35px 0px;
+    }
+
+    .hero-left h1 {
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0px;
+    }
+
+    .hero-left p {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .bar {
+        display: none
+    }
+
+    .report-issue {
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+    .report-issue p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+
+    .learn-info .info-bx {
+        padding: 28px 16px;
+        margin: 20px 0px;
+    }
+
+    .learn-info .info-bx h6 {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .learn-info .info-bx h6:before {
+        top: 0px;
+        margin: 0 12px 0 0;
+    }
+
+    .solution p {
+
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .inner-solution-bx p {
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .inner-solution-img {
+        text-align: center;
+
+    }
+
+    .inner-solution-bx h5 {
+        margin: 20px 0px;
+    }
+
+    .inner-solution-img img {
+        text-align: center;
+        width: 75% !important;
+    }
+
+    .team {
+
+        background-size: 100% 100%;
+        padding: 50px 0px;
+
+    }
+
+    .inner-team-bx {
+        padding: 40px 20px;
+    }
+
+    .inner-team-bx p {
+        padding: 0px;
+    }
+
+    .advisor {
+        padding: 60px 0px;
+    }
+
+    .advisor p {
+
+        padding: 0px;
+    }
+
+    .problog-img img {
+        width: 35% !important;
+        margin-bottom: 10px;
+    }
+
+    .proj-card {
+        padding: 0px;
+        order: 2;
+    }
+
+    .mpro-line {
+        display: none
+    }
+
+    .project-right-bx p {
+
+        margin-bottom: 15px;
+    }
+
+    .pro-box1 {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 10px 0px;
+
+        border-top: 1px solid #dddfe1;
+        border-bottom: 1px solid #dddfe1;
+    }
+    .pro-box1:before {
+        content: " ";
+        height: 70px;
+        width: 1px;
+        position: absolute;
+        top: 6px;
+        background: #dddfe1;
+        left: 12rem;
+    }
+    .pro-box2 {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 10px 0px;
+        border-top: 1px solid #dddfe1;
+        border-bottom: 1px solid #dddfe1;
+    }
+    .pro-box3 {
+        width: 100%;
+        text-align: center;
+        float: left;
+        margin-top: 15px;
+
+    }
+    .dropmenulist {
+   
+    padding: 15px 0px;
+}
+.menulist{
+        width: 210%;
+    }
+}
