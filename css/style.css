@@ -223,7 +223,8 @@ label {
 
 .slider-section {
     background-color: #0A5394;
-    padding: 150px 0px;
+    padding-top: 231px;
+    padding-bottom: 226px;
 }
 
 .hero-left {
@@ -259,6 +260,7 @@ label {
 .report-issue {
     padding: 100px 0px;
     background: white;
+    padding-bottom: 140px;
 }
 
 .report-issue h3 {
@@ -276,7 +278,7 @@ label {
 }
 
 .solution {
-    padding: 100px 0px;
+    padding: 105px 0px;
 }
 
 .solution h3 {
@@ -336,7 +338,7 @@ label {
 .team {
     background: url(../images/futuristic-background@3x.jpg)no-repeat;
     background-size: cover;
-    padding: 135px 0px;
+    padding: 105px 0px;
     text-align: center;
 }
 
@@ -366,7 +368,8 @@ label {
 }
 
 .advisor {
-    padding: 80px 0px;
+    padding-top: 106px;
+    padding-bottom: 112px;
     text-align: center;
     background: white;
 }
@@ -455,7 +458,7 @@ label {
     height: 54px;
     float: left;
     position: relative;
-    top: -9px;
+    top: 0px;
     margin: 0 30px 0 0;
 }
 
@@ -468,7 +471,7 @@ label {
     position: -webkit-sticky;
     position: sticky;
     top: 110px;
-    z-index: 1020;
+    z-index: 1010;
 }
 
 .menulist a {
@@ -481,9 +484,11 @@ label {
     content: "\f0c9";
     font-size: 37px;
 }
-.menulist a{
+
+.menulist a {
     padding: 0px 10px;
 }
+
 /*Project*/
 .project h5 {
     color: #494949;
